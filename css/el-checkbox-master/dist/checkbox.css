@@ -265,7 +265,7 @@ label.el-checkbox {
   background-color: #D3DCE6;
 }
 .el-switch > input[type="checkbox"]:checked + .el-switch-style {
-  background-color: #20a0ff;
+  background-color: #6E0099;
 }
 .el-switch > input[type="checkbox"]:checked + .el-switch-style:before {
   left: 50%;

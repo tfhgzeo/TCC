@@ -1,3 +1,5 @@
+/* TAG */
+
 body,
 html {
     margin: 0;
@@ -5,27 +7,32 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.topBar {
-    background-color: #8AA5E6;
-    height: 40px;
+/* CLASS */
 
+.topBar {
+    background-color: #6E0099;
+    height: 50px;
+    border-radius: 0 0 20px 20px;
 }
 
 .topBar i {
+    color: white;
+    padding: 0;
+    margin: 0;
     position: relative;
     float: left;
-    left: 20px;
-    margin: 0;
-    padding: 0;
-    top: 10px;
+    line-height: 50px;
+    left: 15px;
 }
 
 .topBar p {
-    margin: 0;
     padding: 0;
-    color: black;
-    text-align: center;
-    line-height: 40px;
+    margin: 0;
+    position: relative;
+    color: white;
+    margin-left: 50%;
+    left: -40px;
+    line-height: 50px;
 }
 
 .formCadastro {
@@ -35,15 +42,14 @@ html {
 .formCadastro input {
     color: black;
     width: 80%;
-    border-radius: 50px;
     border-top: none;
     border-left: none;
     border-right: none;
+    border-bottom: none;
     text-align: left;
     padding-left: 5%;
     height: 30px;
     background-color: rgb(226, 226, 226);
-    margin-top: 10%;
     outline: none;
 }
 
@@ -66,9 +72,82 @@ html {
 .btnCadastro button {
     border: none;
     width: 80%;
-    height: 40px;
+    height: 60px;
     border-radius: 50px;
-    background-color: #20a0ff ;
+    background-color: #6E0099;
     color: white;
     outline: none;
+    font-size: large;
 }
+
+.name {
+    background-color: rgb(226, 226, 226);
+    height: 60px;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+    border-radius: 50px;
+}
+
+.email {
+    background-color: rgb(226, 226, 226);
+    height: 60px;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+    border-radius: 50px;
+}
+
+.password {
+    background-color: rgb(226, 226, 226);
+    height: 60px;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+    border-radius: 50px;
+}
+
+.passwordC {
+    background-color: rgb(226, 226, 226);
+    height: 60px;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+    border-radius: 50px;
+}
+
+.passwordC i {
+    color: #6E0099;
+    line-height: 60px;
+}
+
+.password i {
+    color: #6E0099;
+    line-height: 60px;
+}
+
+.name i {
+    color: #6E0099;
+    line-height: 60px;
+}
+
+.email i {
+    color: #6E0099;
+    line-height: 60px;
+}
+
+.load {
+    background-color: white cover;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    color: #6E0099;
+}
+
+.elementoIncorreto {
+    border: solid 1px red;
+}
+
+/* ID */
