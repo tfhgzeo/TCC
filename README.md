@@ -5,4 +5,4 @@ Biblioteca de css
 https://codeload.github.com/EvanLiu2968/el-checkbox/zip/master
 
 Bliblioteca de Icones
-https://codeload.github.com/astrit/css.gg/zip/master
+https://fontawesome.com/
