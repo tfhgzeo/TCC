@@ -1,6 +1,6 @@
-var btnAjuda = document.querySelector("#ajuda");
+var btnAjuda = document.querySelector("#voltar");
 btnAjuda.addEventListener('click', function (){
-    window.location.href = "ajuda.html";
+    window.location.href = "home.html";
 })
 
 var btnCadastrar = document.querySelector("#btnCadastrar");
