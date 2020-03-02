@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function (event) {
     let estilo = document.getElementsByClassName('load');
-    estilo[0].style.visibility = "hidden";
+    estilo[0].style.visibility = 'hidden';
 });
 
-var voltar = document.querySelector("i");
+var voltar = document.querySelector('i');
 voltar.addEventListener('click', function () {
     window.location.href = "index.html";
 })
