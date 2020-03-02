@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function (event) {
+document.addEventListener('DOMContentLoaded', function (event) {
     let estilo = document.getElementsByClassName('load');
     estilo[0].style.visibility = "hidden";
 });
