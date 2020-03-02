@@ -19,7 +19,7 @@ html {
     float: left;
     line-height: 50px;
     left: 15px;
-    outline: none !important;
+    outline: none;
     border: none;
 }
 
