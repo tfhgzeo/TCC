@@ -25,7 +25,7 @@ cadastrar.addEventListener("click", function () {
         nome.placeholder = "Elemento Obrigatorio";
     } else {
         document.querySelector(".name").classList.remove("elementoInvalido");
-        nome.placeholder = "Nome";;
+        nome.placeholder = "Nome";
         return false;
     }
 
@@ -50,7 +50,7 @@ cadastrar.addEventListener("click", function () {
     if (senhaCValue.length === 0) {
         document.querySelector(".passwordC").classList.add("elementoInvalido");
         senhaC.placeholder = "Elemento Obrigatorio"
-    } else if (senhaValue != senhaCValue) {
+    } else if (senhaValue !== senhaCValue) {
         document.querySelector(".passwordC").classList.add("elementoInvalido");
         document.querySelector(".password").classList.add("elementoInvalido");
         senha.value = "";
