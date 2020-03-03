@@ -20,7 +20,7 @@ cadastrar.addEventListener("click", function () {
     let senhaCValue = senhaC.value;
     let nomeValue = nome.value;
 
-    if (nomeValue.length == 0) {
+    if (nomeValue.length === 0) {
         document.querySelector(".name").classList.add("elementoInvalido");
         nome.placeholder = "Elemento Obrigatorio";
     } else {
@@ -29,7 +29,7 @@ cadastrar.addEventListener("click", function () {
         return false;
     }
 
-    if (emailValue.length == 0) {
+    if (emailValue.length === 0) {
         document.querySelector(".email").classList.add("elementoInvalido");
         email.placeholder = "Elemento Obrigatorio"
     } else {
@@ -38,7 +38,7 @@ cadastrar.addEventListener("click", function () {
         return false;
     }
 
-    if (senhaValue.length == 0) {
+    if (senhaValue.length === 0) {
         document.querySelector(".password").classList.add("elementoInvalido");
         senha.placeholder = "Elemento Invalido";
     } else {
@@ -47,7 +47,7 @@ cadastrar.addEventListener("click", function () {
         return false;
     }
 
-    if (senhaCValue.length == 0) {
+    if (senhaCValue.length === 0) {
         document.querySelector(".passwordC").classList.add("elementoInvalido");
         senhaC.placeholder = "Elemento Obrigatorio"
     } else if (senhaValue != senhaCValue) {
