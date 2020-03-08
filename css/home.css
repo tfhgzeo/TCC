@@ -12,6 +12,11 @@ html {
     margin: 0;
 }
 
+img {
+    margin-top: 10px;
+}
+
+
 /* TAGS */
 
 /* =========================================================================================================== */
@@ -19,36 +24,83 @@ html {
 /* CLASS */
 
 .topBar {
-    background-color: #6E0099;
+    background-color: var(--primary);
     height: 50px;
     border-radius: 0 0 20px 20px;
 }
 
-.topBar #hamburgerMenu {
-    line-height: 50px;
+.menuHamburger {
+    position: relative;
+    font-size: 25px;
     float: left;
-    margin: 0;
-    margin-left: 15px;
-    width: 20px;
     color: white;
+    top: 50%;
+    margin-top: -12.5px;
+    left: 15px;
 }
 
-.topBar #cesta {
+.logo {
+    position: relative;
+    float: left;
+    left: 25%;
     line-height: 50px;
-    float: right;
-    margin: 0;
-    margin-right: 15px;
-    width: 20px;
     color: white;
+    font-size: 30px;
 }
 
-.btnColor {
+.pesquisa {
+    position: relative;
+    float: right;
+    font-size: 25px;
     color: white;
-    background-color: #6E0099;
+    top: 50%;
+    margin-top: -12.5px;
+    right: 70px;
+}
+
+.card-img {
+    width: 20%;
+    height: 300px;
+    padding-bottom: 10px;
+}
+
+.cards {
+    width: 100%;
+    display:inline-block;
+    height: 150px;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 .card {
+    width: 80%;
     margin-bottom: 10px;
+}
+
+.cards::-webkit-scrollbar {
+    display: none;
+}
+
+.nomeProduto {
+    margin-top: 20px;
+    width: 80%;
+}
+
+.descricaoProduto {
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 20px;
+}
+
+.precoProduto {
+    margin-top: 15px;
+    font-size: 20px;
+    color: black;
+}
+
+.TituloProdutosProximos {
+    float: left;
 }
 
 /* CLASS */
@@ -58,6 +110,14 @@ html {
 
 /* IDs */
 
-
+#cesta {
+    position: relative;
+    float: right;
+    font-size: 25px;
+    color: white;
+    top: 50%;
+    margin-top: -12.5px;
+    right: px;
+}
 
 /* IDs */

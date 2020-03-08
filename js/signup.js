@@ -62,6 +62,8 @@ cadastrar.addEventListener("click", function () {
         senhaC.placeholder = "Confirme sua Senha";
         return false;
     }
+
+    createUser();
 })
 
 onLoadFunction();

@@ -3,3 +3,4 @@ cesta.addEventListener("click", () => {
     window.location.href = "cesta.html";
 })
 
+onLoadFunction();
